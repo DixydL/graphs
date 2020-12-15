@@ -20,8 +20,6 @@ services:
     container_name: mysql_test2
     restart: unless-stopped
     tty: true
-    volumes:
-     - /home/dix/DB/test3:/var/lib/mysql
     ports:
       - "3393:3306"
     environment:
