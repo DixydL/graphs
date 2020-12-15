@@ -1,0 +1,6 @@
+{
+    "require": {
+        "spatie/laravel-analytics": "^3.10",
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}
